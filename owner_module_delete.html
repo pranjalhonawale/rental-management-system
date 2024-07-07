@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> Delete Record </title>
+<style>
+body
+{
+  background-image: url("bg1 (10).jpg"); 
+  background-position: center; /* Center the image */ 
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size:100%;
+}
+
+form
+{
+	background:#c3f054;
+	padding:30px;
+	width:500px;
+	margin:auto;
+	font-size:20px;
+	color:black;
+	font-family:verdana;
+}
+
+input
+{
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	font-size:16px;
+	font-family:Verdana;
+	border:none;
+}
+
+input[type=submit]
+{
+width:40%;
+margin-left:150px;
+background:#fc0335;
+font-size:20px;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;	
+}
+
+</style>
+
+</head>
+
+<body>
+<form action="owner_module_delete_php.php" method="post" autocomplete="off">
+		<h2> <center> Deleting Record </center></h2>
+		
+		<input type="text" name="Aadhar_Number" placeholder="Enter Aadhar Number" required="require"> 
+		<br>
+		<input type="text" name="PAN_Number" placeholder="Enter PAN Number" required="require"> <br>
+
+		<b><input type="submit" name="delete" value="Delete Record"> </b> <br><br>
+
+		<a href="owner_module_php.php"> Go To The Dashboard </a> <br> 
+
+</form>
+</body>>
+</html>

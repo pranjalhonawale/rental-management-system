@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>OWNER REGISTRATION</title>
+<style>
+body
+{
+	background-image: url("bg1 (8).jpg"); 
+}
+
+form
+{
+	background:#c3f054;
+	padding:30px;
+	width:500px;
+	margin:auto;
+	font-size:20px;
+	color:black;
+	font-family:verdana;
+}
+
+input
+{
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	font-size:16px;
+	font-family:Verdana;
+	border:none;
+}
+
+input[type=submit]
+{
+width:30%;
+margin-left:165px;
+background:#fc0335;
+font-size:20px;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;	
+}
+
+</style>
+
+</head>
+
+<form action="owner_registration_php.php" method="post" autocomplete="off">
+		<h2> <center> OWNER REGISTRATION </center></h2>
+		
+		<input type="text" name="Owner_First_Name" placeholder="Enter First Name" required="require"> 
+		<br>
+		<input type="text" name="Owner_Last_Name" placeholder="Enter Last Name" required="require"> 
+		<br>
+		<input type="text" name="Owner_City" placeholder="Enter City" required="require"> <br>
+		<input type="text" name="Owner_State" placeholder="Enter State" required="require"> <br>
+		<input type="text" name="Owner_Pincode" placeholder="Enter Pincode" required="require"> <br>
+		<input type="email" name="Owner_Email_ID" placeholder="Enter Email-ID" required="require"> <br>
+		<input type="password" name="Owner_Password" placeholder="Enter Password" required="require"> 
+		<br>
+		<input type="text" name="Owner_Aadhar_Number" placeholder="Enter Aadhar Number" required="require"> <br>
+		<input type="text" name="Owner_PAN_Number" placeholder="Enter PAN Number" required="require"> 
+		<br>
+		<input type="text" name="Owner_Mobile_Number" placeholder="Enter Mobile Number" required="require"> <br>
+		<b><input type="submit" name="Register" value="Register"> </b> <br><br>
+
+</form>
+
+</html>

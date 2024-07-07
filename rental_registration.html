@@ -1,0 +1,79 @@
+<html>
+<head>
+<title> RENTAL REGISTRATION FORM </title>
+<style>
+body
+{
+	background-image: url("bg1 (8).jpg"); 
+}
+
+form
+{
+	background:#217bae;
+	padding:30px;
+	width:500px; 
+	margin:auto;
+	font-size:20px;
+	color:white;
+	font-family:verdana;
+}
+
+input
+{
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	font-size:16px;
+	font-family:Verdana;
+	border:none;
+}
+
+input[type=submit]
+{
+width:30%;
+margin-left:165px;
+background:#531ddb;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;	
+}
+
+</style>
+
+</head>
+
+<form action="rental_registration_php.php" method="post" autocomplete="off">
+		<h2> <center> Rental Registration Form </center></h2>
+		
+		<input type="text" name="Rental_First_Name" placeholder="Enter First Name" required="require"> <br>
+
+		<input type="text" name="Rental_Last_Name" placeholder="Enter Last Name" required="require"> 
+		<br>
+
+		<input type="text" name="Rental_City" placeholder="Enter City" required="require"> <br>
+
+		<input type="text" name="Rental_State" placeholder="Enter State" required="require"> <br>
+
+		<input type="text" name="Rental_Pincode" placeholder="Enter Pincode" required="require"> <br>
+
+		<input type="email" name="Rental_Email_ID" placeholder="Enter Email-ID" required="require"> 
+		<br>
+
+		<input type="password" name="Rental_Password" placeholder="Enter Password" required="require"><br><br>
+		<label>Enter / Select Date Of Birth:</label> 
+		<input type="date" name="Rental_Date_of_Birth" placeholder="Enter Date Of Birth" required="require"> <br>
+
+		<input type="text" name="Maximum_Members" placeholder="Enter Maximum Members" required="require"> <br>
+
+		<input type="text" name="Rental_Aadhar_Number" placeholder="Enter Aadhar Number" required="require"> <br>
+
+		<input type="text" name="Rental_PAN_Number" placeholder="Enter PAN Number" required="require"> <br>
+
+		<input type="text" name="Rental_Mobile_Number" placeholder="Enter Mobile Number" required="require"> <br><br> 
+		
+		<input type="submit" name="Register" value="Register"> <br><br>
+
+</form>
+
+</html>
